@@ -1,0 +1,27 @@
+{
+  "name": "poligon",
+  "version": "1.0.0",
+  "description": "A training and implementation playground for acquiring new skills.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bartlomiej Kokosza <bartlomiej.kokosza@gmail.clom>",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/css": "^1.14.0",
+    "flatpickr": "^4.6.13",
+    "lodash": "^4.17.21",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
