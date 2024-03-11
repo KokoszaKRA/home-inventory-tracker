@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "A training and implementation playground for acquiring new skills.",
   "main": "index.js",
+  "homepage": "https://KokoszaKRA.github.io/home-inventory-tracker/",
   "scripts": {
     "start": "parcel src/*.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/*.html --public-url /home-inventory-tracker/"
   },
   "keywords": [],
   "author": "Bartlomiej Kokosza <bartlomiej.kokosza@gmail.clom>",
